@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Version Control 
+// Date : 11/15/17 - JRS
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +18,9 @@ namespace Shopping_Assistant
         /// </summary>
         [STAThread]
 
-        //Test again
+//Jauhn test
+
+>>>>>>> Stashed changes
         static void Main()
         {
             Application.EnableVisualStyles();
