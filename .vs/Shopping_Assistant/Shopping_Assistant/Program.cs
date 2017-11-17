@@ -13,7 +13,7 @@ namespace Shopping_Assistant
         /// </summary>
         [STAThread]
 
-        //Test Github John can you see this now?
+        //Test again
         static void Main()
         {
             Application.EnableVisualStyles();
