@@ -12,6 +12,8 @@ namespace Shopping_Assistant
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+
+        //Test Github John can you see this now?
         static void Main()
         {
             Application.EnableVisualStyles();
