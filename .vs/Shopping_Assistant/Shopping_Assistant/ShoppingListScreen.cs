@@ -48,7 +48,10 @@ namespace Shopping_Assistant
 
             previousForm = parentForm;//sets the previousForm variable to the form that caused this form to open
             InitializeComponent();//renders the form
-            ImportData(dt_ProductData, Shopping_Assistant.Properties.Resources.Item_Pricelist_Data);//runs the Import Data method
+            if (dt_ProductData.Rows.Count == 0)
+            {
+                ImportData(dt_ProductData, Shopping_Assistant.Properties.Resources.Item_Pricelist_Data);//runs the Import Data method
+            }
             dt_ProductData.DefaultView.Sort = ("Name ASC");
             productSelectionCheckedList.DataSource = dt_ProductData;
             productSelectionCheckedList.ValueMember = "ProductSKU";
