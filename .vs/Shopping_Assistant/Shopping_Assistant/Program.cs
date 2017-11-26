@@ -1,9 +1,4 @@
-﻿//Version Control 
-// Date : 11/15/17 - JRS
-
-
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,18 +8,15 @@ namespace Shopping_Assistant
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
+        /// The main entry point for the application. This is the first method that will run.
         [STAThread]
-
-//Jauhn test
-
->>>>>>> Stashed changes
         static void Main()
         {
+            //The following two lines enable the renderer to display the Forms
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //The following Line starts the application and generates a LogonScreen instance
             Application.Run(new LogonScreen());
         }
     }

@@ -45,6 +45,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CouponScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CouponScreen.Designer.cs">
+      <DependentUpon>CouponScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventsScreen.Designer.cs">
+      <DependentUpon>EventsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationSelectionScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationSelectionScreen.Designer.cs">
+      <DependentUpon>LocationSelectionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuScreen.Designer.cs">
+      <DependentUpon>MainMenuScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingListScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShoppingListScreen.Designer.cs">
+      <DependentUpon>ShoppingListScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUpScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,8 +89,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CouponScreen.resx">
+      <DependentUpon>CouponScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventsScreen.resx">
+      <DependentUpon>EventsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationSelectionScreen.resx">
+      <DependentUpon>LocationSelectionScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogonScreen.resx">
       <DependentUpon>LogonScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuScreen.resx">
+      <DependentUpon>MainMenuScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -70,7 +112,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ShoppingListScreen.resx">
+      <DependentUpon>ShoppingListScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUpScreen.resx">
       <DependentUpon>SignUpScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +129,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Resources\Item_Pricelist_Data.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

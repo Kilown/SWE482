@@ -1,4 +1,3 @@
-C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.csprojResolveAssemblyReference.cache
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.Properties.Resources.resources
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.csproj.GenerateResource.Cache
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.csproj.CoreCompileInputs.cache
@@ -8,3 +7,10 @@ C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\bin\Debug\Shopping_
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.exe
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.pdb
 C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.LogonScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.SignUpScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.LocationSelectionScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.MainMenuScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.EventsScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.CouponScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.ShoppingListScreen.resources
+C:\Users\benan\Desktop\Shopping_Assistant\Shopping_Assistant\obj\Debug\Shopping_Assistant.csprojResolveAssemblyReference.cache

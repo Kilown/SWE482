@@ -1,0 +1,243 @@
+1311,1,3,1,Asparagus,1.54,2001,1,Fresh vegetables
+1312,1,3,1,Broccoli,1.54,2004,2,Fresh vegetables
+1313,1,3,1,Carrots,1.55,2007,3,Fresh vegetables
+1314,1,3,1,Cauliflower,1.55,2010,4,Fresh vegetables
+1315,1,3,1,Celery,1.55,2013,5,Fresh vegetables
+1316,1,3,1,Corn,1.55,2016,6,Fresh vegetables
+1317,1,3,1,Cucumbers,1.55,2019,7,Fresh vegetables
+1328,1,3,2,Lettuce - Greens,1.56,2022,8,Fresh vegetables
+1329,1,3,2,Mushrooms,1.56,2025,9,Fresh vegetables
+13210,1,3,2,Onions,1.56,2028,10,Fresh vegetables
+13211,1,3,2,Peppers,1.56,2031,11,Fresh vegetables
+13212,1,3,2,Potatoes,1.57,2034,12,Fresh vegetables
+13213,1,3,2,Spinach,1.57,2037,13,Fresh vegetables
+13214,1,3,2,Squash,1.57,2040,14,Fresh vegetables
+13315,1,3,3,Zucchini,1.57,2043,15,Fresh vegetables
+13316,1,3,3,Tomatoes,1.58,2046,16,Fresh vegetables
+13317,1,3,3,Apples,1.58,2049,17,Fresh fruits
+13318,1,3,3,Avocados,1.58,2052,18,Fresh fruits
+13319,1,3,3,Bananas,1.58,2055,19,Fresh fruits
+13320,1,3,3,Berries,1.58,2058,20,Fresh fruits
+13321,1,3,3,Cherries,1.59,2061,21,Fresh fruits
+13322,1,3,3,Grapefruit,1.59,2064,22,Fresh fruits
+13323,1,3,3,Grapes,1.59,2067,23,Fresh fruits
+13324,1,3,3,Kiwis,1.59,2070,24,Fresh fruits
+13325,1,3,3,Lemons - Limes,1.60,2073,25,Fresh fruits
+13326,1,3,3,Melon,1.60,2076,26,Fresh fruits
+13427,1,3,4,Nectarines,1.60,2079,27,Fresh fruits
+13428,1,3,4,Oranges,1.60,2082,28,Fresh fruits
+13429,1,3,4,Peaches,1.61,2085,29,Fresh fruits
+13430,1,3,4,Pears,1.61,2088,30,Fresh fruits
+13431,1,3,4,Plums,1.61,2091,31,Fresh fruits
+2111,2,1,1,BBQ sauce,1.54,1999,1,Condiments - Sauces
+2112,2,1,1,Gravy,1.54,2000,2,Condiments - Sauces
+2123,2,1,2,Honey,1.54,2001,3,Condiments - Sauces
+2124,2,1,2,Hot sauce,1.54,2002,4,Condiments - Sauces
+2235,2,2,3,Jam - Jelly - Preserves,1.55,2008,5,Condiments - Sauces
+2236,2,2,3,Ketchup - Mustard,1.55,2010,6,Condiments - Sauces
+2247,2,2,4,Mayonnaise,1.55,2012,7,Condiments - Sauces
+2248,2,2,4,Pasta sauce,1.55,2014,8,Condiments - Sauces
+2249,2,2,4,Relish,1.55,2016,9,Condiments - Sauces
+23510,2,3,5,Salad dressing,1.56,2028,10,Condiments - Sauces
+23511,2,3,5,Salsa,1.56,2031,11,Condiments - Sauces
+23512,2,3,5,Soy sauce,1.57,2034,12,Condiments - Sauces
+24613,2,4,6,Steak sauce,1.58,2050,13,Condiments - Sauces
+24614,2,4,6,Syrup,1.58,2054,14,Condiments - Sauces
+24615,2,4,6,Worcestershire sauce,1.58,2058,15,Condiments - Sauces
+3121,3,1,2,Bouillon cubes,1.54,1999,1,Various groceries
+3132,3,1,3,Cereal,1.54,2000,2,Various groceries
+3133,3,1,3,Coffee - Filters,1.54,2001,3,Various groceries
+3124,3,1,2,Instant potatoes,1.54,2002,4,Various groceries
+3115,3,1,1,Lemon - Lime juice,1.54,2003,5,Various groceries
+3126,3,1,2,Mac & cheese,1.54,2004,6,Various groceries
+3147,3,1,4,Olive oil,1.54,2005,7,Various groceries
+3138,3,1,3,Packaged meals,1.54,2006,8,Various groceries
+3149,3,1,4,Pancake - Waffle mix,1.55,2007,9,Various groceries
+32310,3,2,3,Pasta,1.55,2018,10,Various groceries
+32211,3,2,2,Peanut butter,1.56,2020,11,Various groceries
+32212,3,2,2,Pickles,1.56,2022,12,Various groceries
+32413,3,2,4,Rice,1.56,2024,13,Various groceries
+32314,3,2,3,Tea,1.56,2026,14,Various groceries
+32415,3,2,4,Vegetable oil,1.56,2028,15,Various groceries
+32416,3,2,4,Vinegar,1.56,2030,16,Various groceries
+4121,4,1,2,Bagels,1.54,1999,1,Refrigerated items
+4222,4,2,2,Chip dip,1.54,2002,2,Refrigerated items
+4433,4,4,3,Eggs - Fake eggs,1.55,2010,3,Refrigerated items
+4324,4,3,2,English muffins,1.55,2010,4,Refrigerated items
+4325,4,3,2,Fruit juice,1.55,2013,5,Refrigerated items
+4336,4,3,3,Hummus,1.55,2016,6,Refrigerated items
+4247,4,2,4,Ready-bake breads,1.55,2012,7,Refrigerated items
+4448,4,4,4,Tofu,1.56,2030,8,Refrigerated items
+4539,4,5,3,Tortillas,1.57,2043,9,Refrigerated items
+5131,5,1,3,Applesauce,1.54,1999,1,Canned foods
+5232,5,2,3,Baked beans,1.54,2002,2,Canned foods
+5323,5,3,2,Broth,1.55,2007,3,Canned foods
+5434,5,4,3,Fruit,1.55,2014,4,Canned foods
+5125,5,1,2,Olives,1.54,2003,5,Canned foods
+5226,5,2,2,Tinned meats,1.55,2010,6,Canned foods
+5327,5,3,2,Tuna - Chicken,1.55,2019,7,Canned foods
+5438,5,4,3,Soup - Chili,1.56,2030,8,Canned foods
+5129,5,1,2,Tomatoes,1.55,2007,9,Canned foods
+52410,5,2,4,Veggies,1.55,2018,10,Canned foods
+6121,6,1,2,Catfish,1.54,1999,1,Seafood
+6122,6,1,2,Crab,1.54,2000,2,Seafood
+6123,6,1,2,Lobster,1.54,2001,3,Seafood
+6134,6,1,3,Mussels,1.54,2002,4,Seafood
+6135,6,1,3,Oysters,1.54,2003,5,Seafood
+6136,6,1,3,Salmon,1.54,2004,6,Seafood
+6147,6,1,4,Shrimp,1.54,2005,7,Seafood
+6148,6,1,4,Tilapia,1.54,2006,8,Seafood
+6159,6,1,5,Tuna,1.55,2007,9,Seafood
+10111,10,1,1,Aluminum foil,1.54,1999,1,Kitchen
+10112,10,1,1,Napkins,1.54,2000,2,Kitchen
+10113,10,1,1,Non-stick spray,1.54,2001,3,Kitchen
+10114,10,1,1,Paper towels,1.54,2002,4,Kitchen
+10115,10,1,1,Plastic wrap,1.54,2003,5,Kitchen
+10116,10,1,1,Sandwich - Freezer bags,1.54,2004,6,Kitchen
+10117,10,1,1,Wax paper,1.54,2005,7,Kitchen
+10228,10,2,2,Automotive,1.55,2014,8,Other stuff
+10229,10,2,2,Batteries,1.55,2016,9,Other stuff
+102210,10,2,2,Charcoal - Propane,1.55,2018,10,Other stuff
+102211,10,2,2,Flowers - Greeting card,1.56,2020,11,Other stuff
+102212,10,2,2,Insect repellent,1.56,2022,12,Other stuff
+104413,10,4,4,Light bulbs,1.58,2050,13,Other stuff
+104414,10,4,4,Newspaper - Magazine,1.58,2054,14,Other stuff
+8111,8,1,1,Breakfasts,1.54,1999,1,Frozen
+8112,8,1,1,Burritos,1.54,2000,2,Frozen
+8113,8,1,1,Fish sticks,1.54,2001,3,Frozen
+8224,8,2,2,Fries - Tater tots,1.54,2006,4,Frozen
+8225,8,2,2,Ice cream - Sorbet,1.55,2008,5,Frozen
+8226,8,2,2,Juice concentrate,1.55,2010,6,Frozen
+8337,8,3,3,Pizza,1.55,2019,7,Frozen
+8338,8,3,3,Pizza Rolls,1.56,2022,8,Frozen
+8449,8,4,4,Popsicles,1.57,2034,9,Frozen
+85510,8,5,5,TV dinners,1.58,2048,10,Frozen
+86611,8,6,6,Vegetables,1.59,2064,11,Frozen
+9111,9,1,1,Basil,1.54,1999,1,Spices & herbs
+9112,9,1,1,Black pepper,1.54,2000,2,Spices & herbs
+9113,9,1,1,Cilantro,1.54,2001,3,Spices & herbs
+9224,9,2,2,Cinnamon,1.54,2006,4,Spices & herbs
+9225,9,2,2,Garlic,1.55,2008,5,Spices & herbs
+9226,9,2,2,Ginger,1.55,2010,6,Spices & herbs
+9227,9,2,2,Mint,1.55,2012,7,Spices & herbs
+9338,9,3,3,Oregano,1.56,2022,8,Spices & herbs
+9339,9,3,3,Paprika,1.56,2025,9,Spices & herbs
+93310,9,3,3,Parsley,1.56,2028,10,Spices & herbs
+94411,9,4,4,Red pepper,1.57,2042,11,Spices & herbs
+94412,9,4,4,Salt,1.58,2046,12,Spices & herbs
+94413,9,4,4,Vanilla extract,1.58,2050,13,Spices & herbs
+11111,11,1,1,Beer,1.54,1999,1,Beverages
+11332,11,3,3,Club soda - Tonic,1.54,2004,2,Beverages
+11553,11,5,5,Champagne,1.55,2013,3,Beverages
+11224,11,2,2,Gin,1.54,2006,4,Beverages
+11335,11,3,3,Juice,1.55,2013,5,Beverages
+11336,11,3,3,Mixers,1.55,2016,6,Beverages
+11447,11,4,4,Red wine - White wine,1.56,2026,7,Beverages
+11228,11,2,2,Rum,1.55,2014,8,Beverages
+11229,11,2,2,Saké,1.55,2016,9,Beverages
+113310,11,3,3,Soda pop,1.56,2028,10,Beverages
+113311,11,3,3,Sports drink,1.56,2031,11,Beverages
+112212,11,2,2,Whiskey,1.56,2022,12,Beverages
+112213,11,2,2,Vodka,1.56,2024,13,Beverages
+12111,12,1,1,Baby food,1.54,1999,1,Baby stuff
+12222,12,2,2,Diapers,1.54,2002,2,Baby stuff
+12333,12,3,3,Formula,1.55,2007,3,Baby stuff
+12554,12,5,5,Lotion,1.55,2018,4,Baby stuff
+12445,12,4,4,Baby wash,1.55,2018,5,Baby stuff
+12446,12,4,4,Wipes,1.56,2022,6,Baby stuff
+13111,13,1,1,Cat food - Treats,1.54,1999,1,Pets
+13112,13,1,1,Cat litter,1.54,2000,2,Pets
+13223,13,2,2,Dog food - Treats,1.54,2004,3,Pets
+13334,13,3,3,Flea treatment,1.55,2010,4,Pets
+13445,13,4,4,Pet shampoo,1.55,2018,5,Pets
+14111,14,1,1,Butter - Margarine,1.54,1999,1,Dairy
+14552,14,5,5,Cottage cheese,1.55,2008,2,Dairy
+14223,14,2,2,Half & half,1.54,2004,3,Dairy
+14224,14,2,2,Milk,1.54,2006,4,Dairy
+14335,14,3,3,Sour cream,1.55,2013,5,Dairy
+14446,14,4,4,Whipped cream,1.56,2022,6,Dairy
+14447,14,4,4,Yogurt,1.56,2026,7,Dairy
+14558,14,5,5,Bleu cheese,1.57,2038,8,Cheese
+14559,14,5,5,Cheddar,1.57,2043,9,Cheese
+145510,14,5,5,Cottage cheese,1.58,2048,10,Cheese
+145511,14,5,5,Cream cheese,1.58,2053,11,Cheese
+145512,14,5,5,Feta,1.58,2058,12,Cheese
+145513,14,5,5,Goat cheese,1.59,2063,13,Cheese
+145514,14,5,5,Mozzarella,1.59,2068,14,Cheese
+145515,14,5,5,Parmesan,1.60,2073,15,Cheese
+145516,14,5,5,Provolone,1.60,2078,16,Cheese
+145517,14,5,5,Ricotta,1.60,2083,17,Cheese
+145518,14,5,5,Sandwich slices,1.61,2088,18,Cheese
+145519,14,5,5,Swiss,1.61,2093,19,Cheese
+62210,6,2,2,Bacon - Sausage,1.55,2018,10,Meat
+62211,6,2,2,Beef,1.56,2020,11,Meat
+63312,6,3,3,Chicken,1.57,2034,12,Meat
+63313,6,3,3,Ground beef - Turkey,1.57,2037,13,Meat
+64414,6,4,4,Ham - Pork,1.58,2054,14,Meat
+64415,6,4,4,Hot dogs,1.58,2058,15,Meat
+65516,6,5,5,Lunchmeat,1.60,2078,16,Meat
+63317,6,3,3,Turkey,1.58,2049,17,Meat
+33317,3,3,3,Bagels - Croissants,1.58,2049,17,Baked goods
+33318,3,3,3,Buns - Rolls,1.58,2052,18,Baked goods
+33319,3,3,3,Cake - Cookies,1.58,2055,19,Baked goods
+33320,3,3,3,Donuts - Pastries,1.58,2058,20,Baked goods
+33321,3,3,3,Fresh bread,1.59,2061,21,Baked goods
+33322,3,3,3,Pie! Pie! Pie!,1.59,2064,22,Baked goods
+33323,3,3,3,Pita bread,1.59,2067,23,Baked goods
+34424,3,4,4,Sliced bread,1.61,2094,24,Baked goods
+34425,3,4,4,Baking powder - Soda,1.62,2098,25,Baking
+34426,3,4,4,Bread crumbs,1.62,2102,26,Baking
+34427,3,4,4,Cake - Brownie mix,1.62,2106,27,Baking
+34428,3,4,4,Cake icing - Decorations,1.62,2110,28,Baking
+34429,3,4,4,Chocolate chips - Cocoa,1.63,2114,29,Baking
+34430,3,4,4,Flour,1.63,2118,30,Baking
+34431,3,4,4,Shortening,1.63,2122,31,Baking
+34432,3,4,4,Sugar,1.64,2126,32,Baking
+34433,3,4,4,Sugar substitute,1.64,2130,33,Baking
+34434,3,4,4,Yeast,1.64,2134,34,Baking
+116614,11,6,6,Candy - Gum,1.60,2082,14,Snacks
+116615,11,6,6,Cookies,1.61,2088,15,Snacks
+116616,11,6,6,Crackers,1.61,2094,16,Snacks
+117717,11,7,7,Dried fruit,1.63,2117,17,Snacks
+117718,11,7,7,Granola bars - Mix,1.64,2124,18,Snacks
+117719,11,7,7,Nuts - Seeds,1.64,2131,19,Snacks
+118820,11,8,8,Oatmeal,1.66,2158,20,Snacks
+118821,11,8,8,Popcorn,1.67,2166,21,Snacks
+118822,11,8,8,Potato - Corn chips,1.67,2174,22,Snacks
+118823,11,8,8,Pretzels,1.68,2182,23,Snacks
+15111,15,1,1,Antiperspirant - Deodorant,1.54,1999,1,Personal care
+15112,15,1,1,Bath soap - Hand soap,1.54,2000,2,Personal care
+15113,15,1,1,Condoms - Other b.c.,1.54,2001,3,Personal care
+15114,15,1,1,Cosmetics,1.54,2002,4,Personal care
+15115,15,1,1,Cotton swabs - Balls,1.54,2003,5,Personal care
+15116,15,1,1,Facial cleanser,1.54,2004,6,Personal care
+15117,15,1,1,Facial tissue,1.54,2005,7,Personal care
+15228,15,2,2,Feminine products,1.55,2014,8,Personal care
+15229,15,2,2,Floss,1.55,2016,9,Personal care
+152210,15,2,2,Hair gel - Spray,1.55,2018,10,Personal care
+152211,15,2,2,Lip balm,1.56,2020,11,Personal care
+152212,15,2,2,Moisturizing lotion,1.56,2022,12,Personal care
+152213,15,2,2,Mouthwash,1.56,2024,13,Personal care
+152214,15,2,2,Razors - Shaving cream,1.56,2026,14,Personal care
+153315,15,3,3,Shampoo - Conditioner,1.57,2043,15,Personal care
+153316,15,3,3,Sunblock,1.58,2046,16,Personal care
+153317,15,3,3,Toilet paper,1.58,2049,17,Personal care
+153318,15,3,3,Toothpaste,1.58,2052,18,Personal care
+153319,15,3,3,Vitamins - Supplements,1.58,2055,19,Personal care
+154420,15,4,4,Allergy,1.60,2078,20,Medicine
+154421,15,4,4,Antibiotic,1.60,2082,21,Medicine
+154422,15,4,4,Antidiarrheal,1.61,2086,22,Medicine
+154423,15,4,4,Aspirin,1.61,2090,23,Medicine
+155524,15,5,5,Antacid,1.63,2118,24,Medicine
+155525,15,5,5,Band-aids - Medical,1.63,2123,25,Medicine
+155526,15,5,5,Cold - Flu - Sinus,1.64,2128,26,Medicine
+155527,15,5,5,Pain reliever,1.64,2133,27,Medicine
+156628,15,6,6,Prescription pick-up,1.67,2166,28,Medicine
+103315,10,3,3,Air freshener,1.57,2043,15,Cleaning products
+103316,10,3,3,Bathroom cleaner,1.58,2046,16,Cleaning products
+103317,10,3,3,Bleach - Detergent,1.58,2049,17,Cleaning products
+103318,10,3,3,Dish - Dishwasher soap,1.58,2052,18,Cleaning products
+103319,10,3,3,Garbage bags,1.58,2055,19,Cleaning products
+103320,10,3,3,Glass cleaner,1.58,2058,20,Cleaning products
+104421,10,4,4,Mop head - Vacuum bags,1.60,2082,21,Cleaning products
+104422,10,4,4,Sponges - Scrubbers,1.61,2086,22,Cleaning products

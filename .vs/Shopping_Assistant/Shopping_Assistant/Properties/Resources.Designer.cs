@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Shopping_Assistant.Properties
-{
-
-
+namespace Shopping_Assistant.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,63 @@ namespace Shopping_Assistant.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Shopping_Assistant.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1311,1,3,1,Asparagus,1.54,2001,1,Fresh vegetables
+        ///1312,1,3,1,Broccoli,1.54,2004,2,Fresh vegetables
+        ///1313,1,3,1,Carrots,1.55,2007,3,Fresh vegetables
+        ///1314,1,3,1,Cauliflower,1.55,2010,4,Fresh vegetables
+        ///1315,1,3,1,Celery,1.55,2013,5,Fresh vegetables
+        ///1316,1,3,1,Corn,1.55,2016,6,Fresh vegetables
+        ///1317,1,3,1,Cucumbers,1.55,2019,7,Fresh vegetables
+        ///1328,1,3,2,Lettuce - Greens,1.56,2022,8,Fresh vegetables
+        ///1329,1,3,2,Mushrooms,1.56,2025,9,Fresh vegetables
+        ///13210,1,3,2,Onions,1.56,2028,10,Fresh vegetables
+        ///13211 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Item_Pricelist_Data {
+            get {
+                return ResourceManager.GetString("Item_Pricelist_Data", resourceCulture);
             }
         }
     }
