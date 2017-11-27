@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,23 @@ namespace Shopping_Assistant
 {
     public partial class LogonScreen : Form
     {
+        DataTable dt_UserData = new DataTable();//creates a new datatable to store the user data
+
+    static string userDataFilePath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\non-embedded text files\\Test_User_List.csv";//sets reletive filepath for the user data file
+
         //This method is the constructor for the Logon screen
         public LogonScreen()
         {
+            if (dt_UserData.Columns.Count == 0)//when there are no columns in the datatable
+            {
+                dt_UserData.Columns.Add("UserID", typeof(string));//adds a new column
+                dt_UserData.Columns.Add("FirstName", typeof(string));//adds a new column
+                dt_UserData.Columns.Add("LastName", typeof(string));//adds a new column
+                dt_UserData.Columns.Add("EmailAddress", typeof(string));//adds a new column
+                dt_UserData.Columns.Add("Password", typeof(string));//adds a new column
+            }
+
+            
             InitializeComponent();//displays the Logon screen
         }
 
@@ -84,9 +99,59 @@ namespace Shopping_Assistant
 
         private void logOnButton_Click(object sender, EventArgs e)//when the Log On button is clicked
         {
-            Form MainMenuScreen = new MainMenuScreen(this);//creates a new instance of the Main Menu screen
-            MainMenuScreen.Show();//displays the Main Menu screen
-            this.Hide();//hides this screen from view
+            ImportData(dt_UserData, userDataFilePath);//this is a call to the import data method to populate the datatable with user data
+
+            if (checkCredentials(userNameTextBox.Text.ToString(),passwordTextBox.Text.ToString()) == true)
+            {
+                Form MainMenuScreen = new MainMenuScreen(this);//creates a new instance of the Main Menu screen
+                MainMenuScreen.Show();//displays the Main Menu screen
+                this.Hide();//hides this screen from view
+                dt_UserData.Clear();//empties datatable
+            }
+            else
+            {
+                MessageBox.Show("Incorrect username or password", "Logon Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);//displays a message to the user indicationg and incorrect email or password has been used
+                dt_UserData.Clear();//empties datatable
+            }
+        }
+
+        //This method is utilized to check to see it the email address is already in use
+        private bool checkCredentials(string emailAddress,string password)
+        {
+            bool doesMatch = false;//varible used store the result of the match check
+
+            for (var r = 0; r < dt_UserData.Rows.Count; r++)//loops through each row in the user data
+            {
+                if (dt_UserData.Rows[r]["EmailAddress"].ToString() == emailAddress && dt_UserData.Rows[r]["Password"].ToString() == password)//checks to find matching credentials
+                {
+                    doesMatch = true;// changes match varible to true
+                    break;//breaks out of the loop since no more iterations will be neccisary
+                }
+            }
+            return doesMatch;
+        }
+
+        static void ImportData(DataTable datatable, string filePath)// this method imports a text/csv file and pushes it into a datatable object
+        {
+            //Load File into DatatTable
+            using (StreamReader inFile = new StreamReader(filePath))//this creates a streamreader to read the contents of the text file
+            {
+                //reads entire txt file
+                string wholeFile = inFile.ReadToEnd();
+
+                //breaks file into each distinct row (This will add a blank row for each row since it is looking at returns and new lines)
+                string[] fileRows = wholeFile.Split("\r\n".ToArray());
+
+                //This loop add the data to the datatable while ignoring any empty or blank lines.
+                foreach (string r in fileRows)
+                {
+                    if (r != "")
+                    {
+                        string[] fileRowFields = r.Split(",".ToCharArray());//this splits each line from the text file into individual fields
+                        datatable.Rows.Add(fileRowFields);//this will add each newly created row of data to the datatable
+                    }
+                }
+            }
         }
     }
 }

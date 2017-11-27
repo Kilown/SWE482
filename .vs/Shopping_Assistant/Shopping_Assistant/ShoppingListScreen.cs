@@ -93,31 +93,31 @@ namespace Shopping_Assistant
                 }
             }
         }
-        
+
         //currently not utilized will be implemented when saving shopping lists module is created
-        //public static void WriteDataToFile(System.Data.DataTable submittedDataTable, string submittedFilePath)
-        //{
-        //    int i = 0;//resets counter to zero
-        //    StreamWriter sw = null;//resets stearmwriter to nothing
+        public static void WriteDataToFile(System.Data.DataTable submittedDataTable, string submittedFilePath)
+        {
+            int i = 0;//resets counter to zero
+            StreamWriter sw = null;//resets stearmwriter to nothing
 
-        //    sw = new StreamWriter(submittedFilePath, false);//creats a streamwriter utilizing the provided destination path
+            sw = new StreamWriter(submittedFilePath, false);//creats a streamwriter utilizing the provided destination path
 
-        //    foreach (DataRow row in submittedDataTable.Rows)//for each row within the provided datatable
-        //    {
+            foreach (DataRow row in submittedDataTable.Rows)//for each row within the provided datatable
+            {
 
-        //        object[] array = row.ItemArray;// creates a new object array to store row fields
+                object[] array = row.ItemArray;// creates a new object array to store row fields
 
-        //        for (i = 0; i < array.Length - 1; i++)//for each field
-        //        {
-        //            sw.Write(array[i].ToString() + ",");//creates a new string with the field value and a comma delimmiter
-        //        }
-        //        sw.Write(array[i].ToString());//writes the row to the text file
-        //        sw.WriteLine();//iterates to the next line
+                for (i = 0; i < array.Length - 1; i++)//for each field
+                {
+                    sw.Write(array[i].ToString() + ",");//creates a new string with the field value and a comma delimmiter
+                }
+                sw.Write(array[i].ToString());//writes the row to the text file
+                sw.WriteLine();//iterates to the next line
 
-        //    }
+            }
 
-        //    sw.Close();//closes the streamwriter object
-        //}
+            sw.Close();//closes the streamwriter object
+        }
 
 
         public void Product_Selected(object sender, EventArgs e)//when items are checked within the item list
