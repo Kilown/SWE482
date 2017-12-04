@@ -14,6 +14,7 @@ namespace Shopping_Assistant
     public partial class LogonScreen : Form
     {
         DataTable dt_UserData = new DataTable();//creates a new datatable to store the user data
+        string userID = "";//stores the User ID so that it can be passed into the Main Menu screen
 
     static string userDataFilePath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + "\\non-embedded text files\\Test_User_List.csv";//sets reletive filepath for the user data file
 
@@ -103,7 +104,7 @@ namespace Shopping_Assistant
 
             if (checkCredentials(userNameTextBox.Text.ToString(),passwordTextBox.Text.ToString()) == true)
             {
-                Form MainMenuScreen = new MainMenuScreen(this);//creates a new instance of the Main Menu screen
+                Form MainMenuScreen = new MainMenuScreen(this,userID.ToString());//creates a new instance of the Main Menu screen
                 MainMenuScreen.Show();//displays the Main Menu screen
                 this.Hide();//hides this screen from view
                 dt_UserData.Clear();//empties datatable
@@ -125,6 +126,7 @@ namespace Shopping_Assistant
                 if (dt_UserData.Rows[r]["EmailAddress"].ToString() == emailAddress && dt_UserData.Rows[r]["Password"].ToString() == password)//checks to find matching credentials
                 {
                     doesMatch = true;// changes match varible to true
+                    userID = dt_UserData.Rows[r]["UserID"].ToString();//takes the matching records UserID value and stores it within a variable
                     break;//breaks out of the loop since no more iterations will be neccisary
                 }
             }

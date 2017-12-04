@@ -46,6 +46,7 @@
             this.experationDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.saveButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.deleteButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.savedCouponsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,7 +62,7 @@
             this.backButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.backButton.ForeColor = System.Drawing.Color.Black;
-            this.backButton.Location = new System.Drawing.Point(106, 403);
+            this.backButton.Location = new System.Drawing.Point(15, 403);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(76, 32);
             this.backButton.TabIndex = 43;
@@ -190,6 +191,7 @@
             this.saveButton.TabIndex = 51;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // groupBox2
             // 
@@ -209,11 +211,29 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Enter New Coupon";
             // 
+            // deleteButton
+            // 
+            this.deleteButton.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.deleteButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.deleteButton.FlatAppearance.BorderSize = 3;
+            this.deleteButton.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.deleteButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.deleteButton.ForeColor = System.Drawing.Color.Black;
+            this.deleteButton.Location = new System.Drawing.Point(134, 403);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(140, 32);
+            this.deleteButton.TabIndex = 53;
+            this.deleteButton.Text = "Delete Selected Coupons";
+            this.deleteButton.UseVisualStyleBackColor = false;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
             // CouponScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 444);
+            this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.groupBox1);
@@ -222,7 +242,7 @@
             this.Name = "CouponScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CouponScreen";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CouponScreen_Close);//creates an event handler for when the form is closing via the "X" button
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CouponScreen_Close);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.savedCouponsDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -249,5 +269,6 @@
         private System.Windows.Forms.DateTimePicker experationDateTimePicker;
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button deleteButton;
     }
 }

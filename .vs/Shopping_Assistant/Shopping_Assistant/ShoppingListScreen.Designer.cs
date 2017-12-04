@@ -42,6 +42,8 @@ namespace Shopping_Assistant
             this.headerLabel = new System.Windows.Forms.Label();
             this.productSelectionCheckedList = new System.Windows.Forms.CheckedListBox();
             this.loadButton = new System.Windows.Forms.Button();
+            this.loadListComboBox = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.productListDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,11 +64,12 @@ namespace Shopping_Assistant
             this.saveButton.TabIndex = 51;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // EmailLabel
             // 
             this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Location = new System.Drawing.Point(20, 61);
+            this.EmailLabel.Location = new System.Drawing.Point(20, 56);
             this.EmailLabel.Name = "EmailLabel";
             this.EmailLabel.Size = new System.Drawing.Size(91, 13);
             this.EmailLabel.TabIndex = 39;
@@ -92,9 +95,9 @@ namespace Shopping_Assistant
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.productListDataGridView);
-            this.groupBox1.Location = new System.Drawing.Point(15, 214);
+            this.groupBox1.Location = new System.Drawing.Point(15, 197);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(260, 184);
+            this.groupBox1.Size = new System.Drawing.Size(260, 172);
             this.groupBox1.TabIndex = 55;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Product Details";
@@ -137,11 +140,11 @@ namespace Shopping_Assistant
             // productSelectionCheckedList
             // 
             this.productSelectionCheckedList.FormattingEnabled = true;
-            this.productSelectionCheckedList.Location = new System.Drawing.Point(23, 77);
+            this.productSelectionCheckedList.Location = new System.Drawing.Point(23, 72);
             this.productSelectionCheckedList.Name = "productSelectionCheckedList";
             this.productSelectionCheckedList.Size = new System.Drawing.Size(240, 124);
             this.productSelectionCheckedList.TabIndex = 57;
-            this.productSelectionCheckedList.SelectedIndexChanged += new System.EventHandler(this.Product_Selected);//creates a new event handler for when items are selected within the item list
+            this.productSelectionCheckedList.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.Product_Selected);
             // 
             // loadButton
             // 
@@ -158,12 +161,32 @@ namespace Shopping_Assistant
             this.loadButton.TabIndex = 58;
             this.loadButton.Text = "Load";
             this.loadButton.UseVisualStyleBackColor = false;
+            this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
+            // 
+            // loadListComboBox
+            // 
+            this.loadListComboBox.FormattingEnabled = true;
+            this.loadListComboBox.Location = new System.Drawing.Point(71, 372);
+            this.loadListComboBox.Name = "loadListComboBox";
+            this.loadListComboBox.Size = new System.Drawing.Size(204, 21);
+            this.loadListComboBox.TabIndex = 59;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 375);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.TabIndex = 60;
+            this.label1.Text = "Load List:";
             // 
             // ShoppingListScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 444);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.loadListComboBox);
             this.Controls.Add(this.loadButton);
             this.Controls.Add(this.productSelectionCheckedList);
             this.Controls.Add(this.EmailLabel);
@@ -194,5 +217,7 @@ namespace Shopping_Assistant
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.CheckedListBox productSelectionCheckedList;
         private System.Windows.Forms.Button loadButton;
+        private ComboBox loadListComboBox;
+        private Label label1;
     }
 }

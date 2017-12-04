@@ -13,10 +13,12 @@ namespace Shopping_Assistant
     public partial class MainMenuScreen : Form
     {
         Form previousForm;//create a variable to hold the previous form
+        string userID = "";//variable used to store the users ID number
 
         //this method is the constructor for the Main Menu Screen
-        public MainMenuScreen(Form parentForm)
+        public MainMenuScreen(Form parentForm, string usersID)
         {
+            userID = usersID;//sets the userID variable to equal the user's ID
             previousForm = parentForm;//sets previousForm variable to equal the form that called this one
             InitializeComponent();//renders the Main Menu form
         }
@@ -49,14 +51,14 @@ namespace Shopping_Assistant
 
         private void couponButton_Click(object sender, EventArgs e)//when the Coupons button is clicked
         {
-            Form CouponScreen = new CouponScreen(this);//creates a new instance of the Coupons screen
+            Form CouponScreen = new CouponScreen(this, userID);//creates a new instance of the Coupons screen
             CouponScreen.Show();//displays the new Coupons screen
             this.Hide();//Hides this form from view
         }
 
         private void groceryListButton_Click(object sender, EventArgs e)//when the Shopping Lists button is clicked
         {
-            Form ShoppingListScreen = new ShoppingListScreen(this);//creates a new instance of the Shopping List screen
+            Form ShoppingListScreen = new ShoppingListScreen(this, userID.ToString());//creates a new instance of the Shopping List screen
             ShoppingListScreen.Show();//displays the new Shopping List screen
             this.Hide();//Hides this form from view
         }
